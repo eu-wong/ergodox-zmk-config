@@ -444,11 +444,11 @@
 					]
 				},
 				{
-					"Name": "",
-					"Behavior": "$custom",
+					"Name": "STICKY SHIFT",
+					"Behavior": "&sk",
 					"Notes": "",
 					"Args": [
-						"&sc RIGHT_SHIFT &caps_macro"
+						"RIGHT_SHIFT"
 					]
 				},
 				{
@@ -460,16 +460,20 @@
 					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&none",
+					"Name": "zoom out",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"LEFT_GUI EQUAL"
+					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&none",
+					"Name": "zoom in",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"LEFT_GUI MINUS"
+					]
 				},
 				{
 					"Name": "",
@@ -592,10 +596,10 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&mt",
+					"Behavior": "&lt",
 					"Notes": "",
 					"Args": [
-						"RIGHT_CONTROL RIGHT_ALT",
+						"macros",
 						"TAB"
 					]
 				},
@@ -736,9 +740,11 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"TAB"
+					]
 				},
 				{
 					"Name": "",
@@ -992,9 +998,11 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"MINUS"
+					]
 				},
 				{
 					"Name": "",
@@ -1038,7 +1046,7 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
+					"Behavior": "&none",
 					"Notes": "",
 					"Args": []
 				},
@@ -1556,9 +1564,11 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"UNDERSCORE"
+					]
 				},
 				{
 					"Name": "",
@@ -1597,7 +1607,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"GRAVE"
+						"TILDE"
 					]
 				},
 				{
@@ -1764,9 +1774,51 @@
 			"Keys": [
 				{
 					"Name": "",
+					"Behavior": "&out",
+					"Notes": "",
+					"Args": [
+						"OUT_BLE"
+					]
+				},
+				{
+					"Name": "iPhone",
+					"Behavior": "&bt",
+					"Notes": "",
+					"Args": [
+						"BT_SEL 0"
+					]
+				},
+				{
+					"Name": "",
 					"Behavior": "&none",
 					"Notes": "",
 					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&out",
+					"Notes": "",
+					"Args": [
+						"OUT_TOG"
+					]
 				},
 				{
 					"Name": "",
@@ -1800,51 +1852,17 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
 					"Behavior": "&none",
 					"Notes": "",
 					"Args": []
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
+					"Behavior": "&bt",
 					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "&none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "&none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "&none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "&none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "&none",
-					"Notes": "",
-					"Args": []
+					"Args": [
+						"BT_CLR"
+					]
 				},
 				{
 					"Name": "",
@@ -1894,9 +1912,11 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
+					"Behavior": "&out",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"OUT_USB"
+					]
 				},
 				{
 					"Name": "",
@@ -2043,28 +2063,36 @@
 					"Args": []
 				},
 				{
-					"Name": "",
-					"Behavior": "&none",
+					"Name": "undo",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"LEFT_GUI Z"
+					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&none",
+					"Name": "cut",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"LEFT_GUI X"
+					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&none",
+					"Name": "copy",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"C"
+					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&none",
+					"Name": "paste",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"LEFT_GUI V"
+					]
 				},
 				{
 					"Name": "",
@@ -2231,6 +2259,488 @@
 					"Args": [
 						"RETURN"
 					]
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				}
+			]
+		},
+		{
+			"Name": "macros",
+			"Notes": "",
+			"Keys": [
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "$custom",
+					"Notes": "",
+					"Args": [
+						"&parentheses"
+					]
+				},
+				{
+					"Name": "",
+					"Behavior": "$custom",
+					"Notes": "",
+					"Args": [
+						"&brackets"
+					]
+				},
+				{
+					"Name": "",
+					"Behavior": "$custom",
+					"Notes": "",
+					"Args": [
+						"&braces"
+					]
+				},
+				{
+					"Name": "",
+					"Behavior": "$custom",
+					"Notes": "",
+					"Args": [
+						"&angled"
+					]
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "$custom",
+					"Notes": "",
+					"Args": [
+						"&squote"
+					]
+				},
+				{
+					"Name": "",
+					"Behavior": "$custom",
+					"Notes": "",
+					"Args": [
+						"&dquotes"
+					]
+				},
+				{
+					"Name": "' += '",
+					"Behavior": "$ascii_string",
+					"Notes": "",
+					"Args": [
+						" += "
+					]
+				},
+				{
+					"Name": "' -= '",
+					"Behavior": "$ascii_string",
+					"Notes": "",
+					"Args": [
+						" -= "
+					]
+				},
+				{
+					"Name": "",
+					"Behavior": "$ascii_string",
+					"Notes": "",
+					"Args": [
+						"->"
+					]
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "$custom",
+					"Notes": "",
+					"Args": [
+						"&unstick"
+					]
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
 				},
 				{
 					"Name": "",
@@ -3265,11 +3775,9 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&tog",
+					"Behavior": "&none",
 					"Notes": "",
-					"Args": [
-						"Linux"
-					]
+					"Args": []
 				},
 				{
 					"Name": "",
@@ -3388,5 +3896,5 @@
 			]
 		}
 	],
-	"Custom": "&mt {\n    tapping-term-ms = <200>;\n\tflavor = \"tap-preferred\";\n\tquick-tap-ms = <0>;\n};\n\n&lt {\n    tapping-term-ms = <200>;\n\tflavor = \"tap-preferred\";\n\tquick-tap-ms = <0>;\n};\n\n/ {\n\tZMK_MACRO(brackets, \n\t\twait-ms = <0>;\n\t\ttap-ms = <0>;\n\t\tbindings = <&kp LBKT &kp RBKT &kp LEFT>;\n\t)\n\n\tZMK_MACRO(parentheses, \n\t\twait-ms = <0>;\n\t\ttap-ms = <0>;\n\t\tbindings = <&kp LPAR &kp RPAR &kp LEFT>;\n\t)\n\n\tZMK_MACRO(braces, \n\t\twait-ms = <0>;\n\t\ttap-ms = <0>;\n\t\tbindings = <&kp LBRC &kp RBRC &kp LEFT>;\n\t)\n\n\tZMK_MACRO(angled, \n\t\twait-ms = <0>;\n\t\ttap-ms = <0>;\n\t\tbindings = <&kp LT &kp GT &kp LEFT>;\n\t)\n\n\tZMK_MACRO(unstick,\n\t\twait-ms = <0>;\n\t\ttap-ms = <0>;\n\t\tbindings = <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI &to LAYER_MAIN>;\n\t)\n\n\tZMK_MACRO(caps_macro,\n\t\ttap-ms = <200>;\n\t\tbindings = <&kp CAPS>;\n\t)\n\n\tsc: shift_caps {\n\t\tlabel = \"shift caps\";\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <200>;\n\t\tflavor = \"hold-preferred\";\n\t\tbindings = <&kp>, <&caps_macro>;\n\t};\n\n};\n"
+	"Custom": "&mt {\n    tapping-term-ms = <200>;\n\tflavor = \"tap-preferred\";\n\tquick-tap-ms = <0>;\n};\n\n&lt {\n    tapping-term-ms = <200>;\n\tflavor = \"tap-preferred\";\n\tquick-tap-ms = <0>;\n};\n\n&sk {\n\tquick-release;\n};\n\n/ {\n\tZMK_MACRO(brackets, \n\t\twait-ms = <0>;\n\t\ttap-ms = <0>;\n\t\tbindings = <&kp LBKT &kp RBKT &kp LEFT>;\n\t)\n\n\tZMK_MACRO(parentheses, \n\t\twait-ms = <0>;\n\t\ttap-ms = <0>;\n\t\tbindings = <&kp LPAR &kp RPAR &kp LEFT>;\n\t)\n\n\tZMK_MACRO(braces, \n\t\twait-ms = <0>;\n\t\ttap-ms = <0>;\n\t\tbindings = <&kp LBRC &kp RBRC &kp LEFT>;\n\t)\n\n\tZMK_MACRO(angled, \n\t\twait-ms = <0>;\n\t\ttap-ms = <0>;\n\t\tbindings = <&kp LT &kp GT &kp LEFT>;\n\t)\n\n\tZMK_MACRO(squote, \n\t\twait-ms = <0>;\n\t\ttap-ms = <0>;\n\t\tbindings = <&kp SINGLE_QUOTE &kp SINGLE_QUOTE &kp LEFT>;\n\t)\n\n\tZMK_MACRO(dquotes, \n\t\twait-ms = <0>;\n\t\ttap-ms = <0>;\n\t\tbindings = <&kp DOUBLE_QUOTES &kp DOUBLE_QUOTES &kp LEFT>;\n\t)\n\n\tZMK_MACRO(unstick,\n\t\twait-ms = <0>;\n\t\ttap-ms = <0>;\n\t\tbindings = <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI &to LAYER_MAIN>;\n\t)\n\n\tZMK_MACRO(caps_macro,\n\t\ttap-ms = <200>;\n\t\tbindings = <&kp CAPS>;\n\t)\n\n\tsc: shift_caps {\n\t\tlabel = \"shift caps\";\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <200>;\n\t\tflavor = \"hold-preferred\";\n\t\tbindings = <&kp>, <&caps_macro>;\n\t};\n\n};\n"
 }
