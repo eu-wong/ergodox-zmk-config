@@ -109,7 +109,7 @@
 				&bootloader
 				&none      &kp F1           &kp F2       &kp F3       &kp F4         &kp F5      &none   &none     &kp F6           &kp F7       &kp F8       &kp F9       &kp F10           &none
 				&kp TAB    &kp RETURN       &parentheses &brackets    &braces        &angled     &kp F11 &kp F12   &kp LEFT_BRACKET &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp RIGHT_BRACKET &kp BACKSLASH
-				&kp DELETE &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI &kp LEFT_SHIFT &m_fedc066b                   &kp EQUAL        &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp COLON         &kp SINGLE_QUOTE
+				&kp DELETE &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI &kp LEFT_SHIFT &m_769469c7                   &kp EQUAL        &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp COLON         &kp SINGLE_QUOTE
 				&none      &kp RETURN       &kp COMMA    &kp PERIOD   &kp SLASH      &none       &none   &kp MINUS &kp BACKSLASH    &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp GRAVE         &none
 				&none      &none            &none        &none        &kp DELETE                                                    &kp NUMBER_0 &kp COMMA    &kp PERIOD   &kp SLASH         &unstick
 				                                                                     &none       &none   &none     &none
@@ -146,14 +146,14 @@
 		layer_4 {
 			bindings = <
 				&bootloader
-				&none &none   &none        &none       &none       &none       &none &none &none &none &none &none &none &none
-				&none &none   &parentheses &brackets   &braces     &angled     &none &none &none &none &none &none &none &none
-				&none &squote &dquotes     &m_63052283 &m_404d1099 &m_c67891a2             &none &none &none &none &none &none
-				&none &none   &none        &none       &none       &none       &none &none &none &none &none &none &none &none
-				&none &none   &none        &none       &none                                     &none &none &none &none &unstick
-				                                                   &none       &none &none &none
-				                                       &none       &none       &none &none &none &none
-				                                                               &none &none
+				&none &none   &none        &none       &none         &none       &none &none &none &none        &none        &none        &none &none
+				&none &none   &parentheses &brackets   &braces       &angled     &none &none &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &none &none
+				&none &squote &dquotes     &m_d35822c7 &m_f9e5ece7   &m_eef198fc             &none &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &none &none
+				&none &none   &none        &none       &none         &none       &none &none &none &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &none &none
+				&none &none   &none        &none       &none                                       &kp NUMBER_0 &none        &none        &none &unstick
+				                                                     &none       &none &none &none
+				                                       &mo LAYER_SYM &none       &none &none &none &none
+				                                                                 &none &none
 			>;
 		};
 		layer_5 {
@@ -184,8 +184,8 @@
 		};
 	};
 
-	ZMK_MACRO(m_404d1099, wait-ms = <10>; tap-ms = <10>; bindings = <&macro_tap &kp SPACE>, <&macro_tap &kp MINUS>, <&macro_tap &kp EQUAL>, <&macro_tap &kp SPACE>;)
-	ZMK_MACRO(m_c67891a2, wait-ms = <10>; tap-ms = <10>; bindings = <&macro_tap &kp MINUS>, <&macro_tap &kp GREATER_THAN>;)
-	ZMK_MACRO(m_fedc066b, wait-ms = <10>; tap-ms = <10>; bindings = <&macro_tap &kp MINUS>, <&macro_tap &kp GREATER_THAN>;)
-	ZMK_MACRO(m_63052283, wait-ms = <10>; tap-ms = <10>; bindings = <&macro_tap &kp SPACE>, <&macro_tap &kp PLUS>, <&macro_tap &kp EQUAL>, <&macro_tap &kp SPACE>;)
+	ZMK_MACRO(m_769469c7, wait-ms = <10>; tap-ms = <10>; bindings = <&macro_tap &kp MINUS>, <&macro_tap &kp GREATER_THAN>;)
+	ZMK_MACRO(m_d35822c7, wait-ms = <10>; tap-ms = <10>; bindings = <&macro_tap &kp SPACE>, <&macro_tap &kp PLUS>, <&macro_tap &kp EQUAL>, <&macro_tap &kp SPACE>;)
+	ZMK_MACRO(m_f9e5ece7, wait-ms = <10>; tap-ms = <10>; bindings = <&macro_tap &kp SPACE>, <&macro_tap &kp MINUS>, <&macro_tap &kp EQUAL>, <&macro_tap &kp SPACE>;)
+	ZMK_MACRO(m_eef198fc, wait-ms = <10>; tap-ms = <10>; bindings = <&macro_tap &kp MINUS>, <&macro_tap &kp GREATER_THAN>;)
 };
